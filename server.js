@@ -24,11 +24,11 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'deepseek-ai/deepseek-r1-0528',
   'gpt-4': 'moonshotai/kimi-k2-thinking',
-  'gpt-4-turbo': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'gpt-4-turbo': 'mistralai/mistral-large-3-675b-instruct-2512',
   'gpt-4o': 'deepseek-ai/deepseek-v3.1',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'mistralai/mistral-large-3-675b-instruct-2512' 
+  'gemini-pro': 'qwen/qwen3-coder-480b-a35b-instruct' 
 };
 
 // Health check endpoint
